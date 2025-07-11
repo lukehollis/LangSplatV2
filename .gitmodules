@@ -1,0 +1,9 @@
+[submodule "submodules/efficient-langsplat-rasterization"]
+	path = submodules/efficient-langsplat-rasterization
+	url = https://github.com/ZhaoYujie2002/efficient-langsplat-rasterization
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = https://github.com/ZhaoYujie2002/simple-knn
+[submodule "submodules/segment-anything-langsplat"]
+	path = submodules/segment-anything-langsplat
+	url = https://github.com/ZhaoYujie2002/segment-anything-langsplat
