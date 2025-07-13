@@ -38,12 +38,12 @@ This repository contains the official authors implementation associated with the
 The repository contains submodules, thus please check it out with 
 ```shell
 # SSH
-git clone git@github.com:ZhaoYujie2002/LangSplat-V2.git --recursive
+git clone git@github.com:ZhaoYujie2002/LangSplatV2.git --recursive
 ```
 or
 ```shell
 # HTTPS
-git clone https://github.com/ZhaoYujie2002/LangSplat-V2.git --recursive
+git clone https://github.com/ZhaoYujie2002/LangSplatV2.git --recursive
 ```
 
 ## Setup
