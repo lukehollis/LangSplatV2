@@ -7,7 +7,7 @@
     <a href="https://github.com/jimmyYliu">Yang Liu</a>,
     <a href="https://caiyuanhao1998.github.io/">Yuanhao Cai</a>,
     <a href="https://people.csail.mit.edu/ganchuang/">Chuang Gan</a>,
-    <a href="https://vcg.seas.harvard.edu/people/=hanspeter-pfister">Hanspeter Pfister</a>,
+    <a href="https://vcg.seas.harvard.edu/people">Hanspeter Pfister</a>,
   </p>
 </div>
 <div align="center">
