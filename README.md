@@ -1,6 +1,22 @@
 # LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS
+<div align="center">
+  <p>
+    <a href="https://li-wanhua.github.io/">Wanhua Li*</a>,
+    <a href="https://github.com/ZhaoYujie2002">Yujie Zhao*</a>,
+    <a href="https://minghanqin.github.io/">Minghan Qin*</a>,
+    <a href="https://github.com/jimmyYliu">Yang Liu</a>,
+    <a href="https://caiyuanhao1998.github.io/">Yuanhao Cai</a>,
+    <a href="https://people.csail.mit.edu/ganchuang/">Chuang Gan</a>,
+    <a href="https://vcg.seas.harvard.edu/people/=hanspeter-pfister">Hanspeter Pfister</a>,
+  </p>
+</div>
+<div align="center">
+  (\* indicates equal contribution)
+</div>
 
+<!--
 [Wanhua Li*](https://li-wanhua.github.io/), [Yujie Zhao*](https://github.com/ZhaoYujie2002), [Minghan Qin*](https://minghanqin.github.io/),  [Yang Liu](https://github.com/jimmyYliu), [Yuanhao Cai](https://caiyuanhao1998.github.io/), [Chuang Gan](https://people.csail.mit.edu/ganchuang/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people/hanspeter-pfister)<br>(\* indicates equal contribution)<br>
+-->
 
 <div align="center">
 <!--
@@ -122,7 +138,7 @@ The pipeline for training LangSplat V2 and evaluation.
 
 ## TODO list:
 - [x] update the arxiv link
-- [ ] release the preprocessed dataset and the pretrained model
+- [ ] release more model weights
 - [ ] release more code of evaluation
 
 
