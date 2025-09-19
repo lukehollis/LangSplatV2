@@ -11,7 +11,7 @@
   </p>
 </div>
 <div align="center">
-  (\* indicates equal contribution)
+  (* indicates equal contribution)
 </div>
 
 <!--
