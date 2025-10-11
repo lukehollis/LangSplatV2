@@ -30,7 +30,7 @@
 <a href="https://langsplat-v2.github.io/">
   <img src="https://img.shields.io/badge/Project_Page-LangSplat_v2-green" alt="Project Page">
 </a>
-<a href="https://drive.google.com/drive/folders/1qcBxcjtgsKq7a5rJUkLxB85usBKB8B4g?usp=sharing">
+<a href="https://drive.google.com/drive/folders/1bHzv8e69NHseEj-3Qe0k0GqTmDYMGg-K?usp=sharing">
   <img src="https://img.shields.io/badge/Google_Drive-Model_Weights-blue" alt="Model">
 </a>
 </div>
@@ -135,17 +135,25 @@ The pipeline for training LangSplat V2 and evaluation.
   ```shell
   bash eval_lerf.sh $scene_name $model_idx $checkpoint
   ```
+  For the 3D-OVS dataset
+  ```shell
+  bash eval_3d_ovs.sh $scene_name $model_idx $checkpoint
+  ```
+  For the Mip-NeRF360 dataset
+  ```shell
+  bash eval_mip_nerf360.sh $scene_name $model_idx $checkpoint
+  ```
 
 ## TODO list:
 - [x] update the arxiv link
-- [ ] release more model weights
-- [ ] release more code of evaluation
+- [x] release more model weights
+- [x] release more code of evaluation
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{li2025langsplatv2highdimensional3dlanguage,
+    <pre><code>@misc{li2025langsplatv2,
       title={LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS}, 
       author={Wanhua Li and Yujie Zhao and Minghan Qin and Yang Liu and Yuanhao Cai and Chuang Gan and Hanspeter Pfister},
       year={2025},
@@ -153,6 +161,28 @@ The pipeline for training LangSplat V2 and evaluation.
       archivePrefix={arXiv},
       primaryClass={cs.GR},
       url={https://arxiv.org/abs/2507.07136}, 
+}</code></pre>
+  </div>
+</section>
+
+<section class="section" id="Research Series">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Research Series</h2>
+    [[CVPR 2024] Langsplat: 3d language gaussian splatting](https://langsplat.github.io/)
+    <pre><code>@inproceedings{qin2024langsplat,
+  title={Langsplat: 3d language gaussian splatting},
+  author={Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={20051--20060},
+  year={2024}
+}</code></pre>
+[[CVPR 2025] 4d langsplat: 4d language gaussian splatting via multimodal large language models](https://4d-langsplat.github.io/)
+    <pre><code>@inproceedings{li20254d,
+  title={4d langsplat: 4d language gaussian splatting via multimodal large language models},
+  author={Li, Wanhua and Zhou, Renping and Zhou, Jiawei and Song, Yingwei and Herter, Johannes and Qin, Minghan and Huang, Gao and Pfister, Hanspeter},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={22001--22011},
+  year={2025}
 }</code></pre>
   </div>
 </section>
