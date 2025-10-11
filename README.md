@@ -168,7 +168,7 @@ The pipeline for training LangSplat V2 and evaluation.
 <section class="section" id="Research Series">
   <div class="container is-max-desktop content">
     <h2 class="title">Research Series</h2>
-    [[CVPR 2024] Langsplat: 3d language gaussian splatting](https://langsplat.github.io/)
+    <a href="https://langsplat.github.io/" target="_blank" style="text-decoration: underline;">[CVPR 2024] Langsplat: 3d language gaussian splatting</a>
     <pre><code>@inproceedings{qin2024langsplat,
   title={Langsplat: 3d language gaussian splatting},
   author={Qin, Minghan and Li, Wanhua and Zhou, Jiawei and Wang, Haoqian and Pfister, Hanspeter},
@@ -176,7 +176,7 @@ The pipeline for training LangSplat V2 and evaluation.
   pages={20051--20060},
   year={2024}
 }</code></pre>
-[[CVPR 2025] 4d langsplat: 4d language gaussian splatting via multimodal large language models](https://4d-langsplat.github.io/)
+    <a href="https://4d-langsplat.github.io/" target="_blank" style="text-decoration: underline;">[CVPR 2025] 4d langsplat: 4d language gaussian splatting via multimodal large language models</a>
     <pre><code>@inproceedings{li20254d,
   title={4d langsplat: 4d language gaussian splatting via multimodal large language models},
   author={Li, Wanhua and Zhou, Renping and Zhou, Jiawei and Song, Yingwei and Herter, Johannes and Qin, Minghan and Huang, Gao and Pfister, Hanspeter},
