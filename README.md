@@ -153,10 +153,11 @@ The pipeline for training LangSplat V2 and evaluation.
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@misc{li2025langsplatv2,
+    <pre><code>@article{li2025langsplatv2,
       title={LangSplatV2: High-dimensional 3D Language Gaussian Splatting with 450+ FPS}, 
       author={Wanhua Li and Yujie Zhao and Minghan Qin and Yang Liu and Yuanhao Cai and Chuang Gan and Hanspeter Pfister},
       year={2025},
+      journal={Advances in Neural Information Processing Systems},
       eprint={2507.07136},
       archivePrefix={arXiv},
       primaryClass={cs.GR},
