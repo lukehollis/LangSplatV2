@@ -36,7 +36,7 @@ COPY . .
 RUN conda env create -f environment_temp.yml
 
 # Install PyTorch and submodules into the created environment
-ENV TORCH_CUDA_ARCH_LIST="7.5"
+ENV TORCH_CUDA_ARCH_LIST="8.9"
 SHELL ["conda", "run", "-n", "langsplat_v2", "/bin/bash", "-c"]
 RUN pip install torch==2.1.0+cu118 torchvision==0.16.0+cu118 torchaudio==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
 RUN pip install submodules/segment-anything-langsplat submodules/efficient-langsplat-rasterization submodules/simple-knn
